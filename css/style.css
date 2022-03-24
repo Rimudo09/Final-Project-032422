@@ -1,0 +1,49 @@
+body{margin: 0;}
+.header{
+    background-color: #c772a6;
+    padding: 50px;
+    text-align: center;
+  }
+.navbar{
+    background-color:#b9c6ce;
+    color: white;
+    height: 70px;
+    width: 100%;
+    position:fixed;
+    top:0;
+    z-index: 1;
+    opacity: 0.5;
+
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.main{}
+
+
+.section{}
+
+.section image{
+   
+
+}
+.list item{
+    float:right;
+    margin-right:15px;
+    margin-top:20px;
+    
+}
+.footer{
+    background-color: #dbafc8;
+    text-align: center;
+    padding: 20px;
+    height: 50px;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+
