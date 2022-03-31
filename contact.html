@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <!-- head and nav bar -->
+  <body>
+    <header>
+        <h1 class="header">
+            We Are HMONG Strong
+        </h1>
+    </header>
+    
+        
+
+    <nav class="navbar">
+        <a href="https://en.wikipedia.org/wiki/Hmong_people" target="_blank"> 
+            <img class="logo" src="/img/icon.png" alt="hmong logo" style="height: 50px; width: 50px;">
+        </a>
+        <ul class="nav list">
+            <a href="index.html"><li class="list item">Home</li></a>
+            <a href="about.html"><li class="list item">About</li></a>
+            <a href="contact.html"><li class="list item">Contact</li></a>
+
+        </ul>
+    </nav>
+</header>
+<!-- end of head and nav -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +32,39 @@
     <title>Contact</title>
 </head>
 <body>
+    <h3>Contact Form</h3>
 
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<!-- footer -->
+<footer class="footer">
+  <ul>
+    <li  class="footer-contact1">LuLara@bitwiseindustries.com</li>
+    <li  class="footer-contact2">(559)500-3305</li>
+  </ul>
+  <a><a href="https://twitter.com/intent/tweet?button_hashtag=bitwise&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #bitwise</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></a>
+      <a></a>
+      <p class="footer-cr">&#169; LLarange 2022</p>
+</div>
+</footer>
 </body>
 </html>
